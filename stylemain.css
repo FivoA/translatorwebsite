@@ -40,6 +40,24 @@ a {
 a:hover {
 	color: white;
 }
+nav select {
+	display: none;
+}
+@media (max-width: 1200px){
+	nav ul {
+		display: none;
+	}
+	nav select {
+		display: inline-block;
+		background-color: rgba(74,76,179,.95);
+		color: white;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		margin-top: 10px;
+	}
+	img {
+		display: none;
+	}
+}
 .container1 {
 	display: flex;
 	flex-wrap: wrap;

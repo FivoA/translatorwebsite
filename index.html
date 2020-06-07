@@ -9,32 +9,27 @@
 </head>
 
 <body>
-<div class="style-switcher">
-  <span class="style-switcher__control"></span>
-    <div class="style-switcher__list">
-      <a class="style-switcher__link style-switcher__link--color"></a>
-      <a class="style-switcher__link style-switcher__link--mono"></a>
-    </div>
-</div>
 <header class="main-header">  
   <div class="menu">
       <div class="container">
         <div class="row">
-          <div class="menu__wrapper d-none d-lg-block col-md-12">
+          <div class="col-lg-12 col-md-12">
             <nav class="">
               <ul>
                 <li><a href="index.html" class="active-page">Kontakt</a></li>
-                <li><a href="#">Profil</a></li>
-                <li><a href="#">Unterricht Kinder</a></li>
-                <li><a href="#">Unterricht Firmen</a></li>
-                <li><a href="#">Übersetzungen</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="kinder.html">Unterricht Kinder</a></li>
+                <li><a href="firmen.html">Unterricht Firmen</a></li>
+                <li><a href="uebersetzungen.html">Übersetzungen</a></li>
               </ul>
+              <select onchange="location = this.value;">
+                <option value="index.html" selected="selected">Kontakt</option>
+                <option value="profil.html">Profil</option> 
+                <option value="kinder.html">Unterricht Kinder</option> 
+                <option value="firmen.html">Unterricht Firmen</option> 
+                <option value="uebersetzungen.html">Übersetzungen</option>                
+              </select>
             </nav>
-          </div>
-          <div class="menu__wrapper col-md-12 d-lg-none">
-            <button type="button" class="menu__mobile-button">
-              <span><i class="fa fa-bars" aria-hidden="true"></i></span>
-            </button>
           </div>
         </div>
       </div>
