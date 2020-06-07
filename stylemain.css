@@ -58,6 +58,11 @@ nav select {
 		display: none;
 	}
 }
+@media (max-width: 1300px) {
+	body {
+	 overflow-y: visible;
+	}
+}
 .container1 {
 	display: flex;
 	flex-wrap: wrap;
