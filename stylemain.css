@@ -1,0 +1,100 @@
+body {
+	background-color: white;	
+	color: white;
+	overflow: hidden;
+}
+img {
+	float: left;
+	width: 290px;
+	height: 193px;
+	margin: 5px 25px 10px 10px;
+	position: relative;
+	border-radius: 5px;
+	top: 30px;
+	box-shadow: 40px 40px 40px rgba(96,96,96,.34);
+	transition: all 1s;
+}
+img:hover {
+	transform: scale(1.05);
+}
+li {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+	margin: 40px;
+}
+h1{
+	margin-left: 40px;
+	margin-top: 30px;
+}
+p {
+	margin-left: 40px;
+	font-weight: 500;
+}
+a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+a:hover {
+	color: white;
+}
+.container1 {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.container {
+ font-weight: 400;
+ display: block;
+ width: 100%;
+}
+.main-header {
+	background-image: linear-gradient(54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95));
+	height: 100%;
+}
+.main-header:before {
+	height: 100%;
+	color: black;
+}
+.menu ul li a.active-page {
+	color: #C0BFC0;
+}
+.info {
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.inf {
+	margin-left: 40px;
+	font-weight: 700;
+	opacity: .5;
+	margin-bottom: 10px;
+}
+.card {
+	color: rgb(85, 85, 85);
+	margin: 10px 10px; 
+}
+.card-title {
+	text-align: center;
+	font-weight: bold;
+}
+.card-text1 {
+	opacity: .7;
+	font-weight: bold;
+}
+.adreng {
+	margin-left: 10px;
+}
+.opac {
+	opacity: .7;
+	font-weight: bold;
+}
+.grad {
+	background-image: linear-gradient(54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95));
+}
+.serv {
+	text-align: center;
+	font-size: 110%;
+	font-weight: bold;
+}
