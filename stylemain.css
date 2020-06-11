@@ -62,6 +62,7 @@ nav select {
 }
 @media (max-width: 1300px) {
 	body {
+		overflow: hidden;
 	}
 }
 @media (min-width: 590px){
