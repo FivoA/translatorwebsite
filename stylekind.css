@@ -1,0 +1,81 @@
+html {
+	overflow-x: hidden;
+}
+body {
+	overflow-y: visible;
+	overflow-x: hidden;
+}
+nav select {
+	display: none;
+}
+@media (max-width: 1200px){
+	nav ul {
+		display: none;
+	}
+	nav select {
+		display: inline-block;
+		background-color: rgba(74,76,179,.95);
+		color: white;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+@media (max-width: 1300px) {
+	body {
+	 overflow-y: visible;
+	 overflow-x: hidden;
+	}
+} 
+@media (min-width: 590px){
+	.mobilealert {
+		display: none;
+	}
+}
+li {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+	margin: 40px;
+}
+a {
+	color: white;
+	text-transform: uppercase;
+}
+a:hover {
+	color: white;
+}
+.main-header {
+	background-image: linear-gradient(54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95));
+	height: 100%;
+}
+.menu ul li a.active-page {
+	color: #C0BFC0;
+}
+.row {
+	padding: 10px;
+}
+.grad {
+	background-image: linear-gradient(54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95));
+	color: white;
+}
+.serv {
+	text-align: center;
+	font-size: 110%;
+	font-weight: bold;
+}
+.card {
+	transition: all 1s;
+	box-shadow: 2px 2px 2px 2px rgba(96,96,96,.34);
+}
+.card:hover {
+	transform: scale(1.01);
+}
+.card-title {
+	text-align: center;
+	font-weight: bold;
+}
+.card-text {
+	text-align: center;
+}

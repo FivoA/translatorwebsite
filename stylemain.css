@@ -4,8 +4,6 @@ html {
 body {
 	background-color: white;	
 	color: white;
-	overflow-y: visible;
-	overflow-x: hidden;
 }
 img {
 	float: left;
@@ -64,8 +62,11 @@ nav select {
 }
 @media (max-width: 1300px) {
 	body {
-	 overflow-y: visible;
-	 overflow-x: hidden;
+	}
+}
+@media (min-width: 590px){
+	.mobilealert {
+		display: none;
 	}
 }
 .container1 {
@@ -125,4 +126,7 @@ nav select {
 	text-align: center;
 	font-size: 110%;
 	font-weight: bold;
+}
+.mobilealert {
+	margin-top: 10px;
 }
