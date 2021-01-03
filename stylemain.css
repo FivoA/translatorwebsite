@@ -5,7 +5,7 @@ body {
 	background-color: white;	
 	color: white;
 }
-img {
+.profile {
 	float: left;
 	width: 290px;
 	height: 193px;
@@ -16,7 +16,7 @@ img {
 	box-shadow: 40px 40px 40px rgba(96,96,96,.34);
 	transition: all 1s;
 }
-img:hover {
+.profile:hover {
 	transform: scale(1.05);
 }
 li {
@@ -24,7 +24,7 @@ li {
 	font-size: 14px;
 	font-weight: 700;
 	text-decoration: none;
-	margin: 40px;
+	margin: 20px;
 }
 h1{
 	margin-left: 40px;
